@@ -118,3 +118,46 @@ ul a {
   align-items: center;
   justify-content: center;
 }
+
+.call-to-action {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3882f6;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.call-to-action .right-side {
+  height: min-content;
+}
+
+.call-to-action .left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action .signup-btn {
+  border: 2px white solid;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.quote {
+  margin-bottom: 80px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #fff;
+  margin-top: 100px;
+}
+
+footer svg {
+  fill: #fff;
+  padding-inline: 3px;
+  width: 15px;
+}
